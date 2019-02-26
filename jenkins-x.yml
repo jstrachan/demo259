@@ -1,7 +1,11 @@
 buildPack: maven
 pipelineConfig:
   pipelines:
+    pullRequest:
+      build:
+        preSteps:
+        - sh: echo "before we build the PR"
     release:
       build:
         preSteps:
-        - sh: echo "the version is $VERSION"
+        - sh: echo "before the release builds"
