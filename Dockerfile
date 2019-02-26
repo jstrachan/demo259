@@ -1,7 +1,7 @@
 FROM openjdk:8-jdk-slim
 ENV PORT 8080
 ENV CLASSPATH /opt/lib
-ENV CHEESE Edam3
+ENV CHEESE Edam4
 EXPOSE 8080
 
 # copy pom.xml and wildcards to avoid this command failing if there's no target/lib directory
