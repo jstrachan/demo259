@@ -1,0 +1,22 @@
+Step: build-step-credential-initializer-28dkw:
+
+Step: build-step-git-source-jstrachan-demo259-master-2gfvd:
+
+Step: build-step-place-tools:
+
+Step: build-step-setup-jx-git-credentials:
+
+Step: build-step-build-mvn-deploy:
+
+Step: build-step-build-skaffold-version:
+
+Step: build-step-build-container-build:
+
+Step: build-step-build-post-build:
+
+Step: build-step-promote-changelog:
+
+Step: build-step-promote-helm-release:
+
+Step: build-step-promote-jx-promote:
+
